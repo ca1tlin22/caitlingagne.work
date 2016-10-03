@@ -3,9 +3,10 @@
 ![](photo.jpg)
 
 ### About Me
-Hi! I am a hardworking, dedicated and easy going person who thrives both individually and in groups, setting and achieving my goals.
 
-I believe that every experience is an opportunity to learn, and by doing so you can approach future obstacles with a new approach.
+Hi!
+
+On this page you'll learn about me and see my ever-changing portfolio. I believe that every experience is an opportunity to have fun and learn, and by doing so you can approach future obstacles in a new way.
 
 ### Get In Touch
 E: caitlin.gagne@outlook.com
