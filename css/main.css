@@ -58,7 +58,7 @@ a {
 
 .nav {
   list-style: none;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0 0em 0;
   background-color: #025157;
   padding: 0.5em;
 }
@@ -100,4 +100,39 @@ footer {
 
 .background {
   width: 100%;
+  padding-top: 1em;
+}
+
+.about {
+  padding: 0 1em 1em 1em;
+}
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+  color: #F16565;
+}
+
+.projects {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  position: absolute;
+  width: 100%;
+  background-color: #025157;
+  opacity: 0;
+  height: 100%;
+  width: 3100%;
+  margin: 0;
+  padding: 0;
+}
+
+.box:hover {
+  opacity: 0.5;
+}
+
+.piece {
+  position: relative;
 }
