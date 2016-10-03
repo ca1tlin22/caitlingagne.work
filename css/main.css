@@ -51,6 +51,11 @@ h4 {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #025157;
+}
+
 .nav {
   list-style: none;
   margin: 0.5em 0 0.5em 0;
