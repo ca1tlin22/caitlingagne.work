@@ -95,7 +95,6 @@ nav ul {
 footer {
   margin: 0 auto;
   text-align: center;
-
 }
 
 .background {
@@ -104,6 +103,10 @@ footer {
 }
 
 .about {
+  padding: 0 1em 1em 1em;
+}
+
+.contact {
   padding: 0 1em 1em 1em;
 }
 
@@ -135,4 +138,14 @@ h2 {
 
 .piece {
   position: relative;
+}
+
+.foot {
+  background-image: url(../img/leaves.svg);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
