@@ -26,13 +26,6 @@ body{
   margin: 0 auto;
 }
 
-.content {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0;
-}
-
 .top {
   padding: 0;
   margin: 0;
@@ -40,6 +33,21 @@ body{
 
   color: #CADFCD;
   text-align: center;
+}
+
+.background {
+  width: 100%;
+  padding-top: 1em;
+  margin: 0 auto;
+  max-width: 600px;
+  display: block;
+}
+
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
 }
 
 h1 {
@@ -50,6 +58,11 @@ h1 {
   padding-top: 0.25em;
   padding-bottom: 0em;
   margin: 0;
+}
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+  color: #F16565;
 }
 
 h4 {
@@ -92,26 +105,6 @@ nav ul {
   width: calc(100% / 3);
 }
 
-.social {
-  width: 15%;
-  display: inline-block;
-  padding: 1em;
-  margin: 0 auto;
-}
-
-footer {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.background {
-  width: 100%;
-  padding-top: 1em;
-  margin: 0 auto;
-  max-width: 600px;
-  display: block;
-}
-
 .about {
   padding: 0 1em 1em 1em;
   margin: 0 auto;
@@ -126,13 +119,12 @@ footer {
   text-align: center;
 }
 
-h2 {
-  font-family: 'Slabo 27px', serif;
-  color: #F16565;
-}
-
-.projects {
-
+.info {
+  padding: 0 1em 1em 1em;
+  margin: 0 auto;
+  max-width: 600px;
+  height: 330px;
+  width: 100%;
 }
 
 .box {
@@ -153,6 +145,27 @@ h2 {
   margin: 0 auto;
 }
 
+.project {
+  width: 100%;
+}
+
+.social {
+  width: 15%;
+  display: inline-block;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.icons {
+  width: 380px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .foot {
   background-image: url(../img/leaves.svg);
   background-size: 100%;
@@ -164,27 +177,4 @@ h2 {
   clear: all;
   background-color: white;
   max-height: 56px;
-}
-
-.icons {
-  width: 380px;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width: 25em) {
-
-
-
-}
-
-@media only screen and (min-width: 38em) {
-
-
-
-}
-
-@media only screen and (min-width: 60em) {
-
-
-
 }
