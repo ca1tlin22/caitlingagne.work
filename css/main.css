@@ -26,6 +26,13 @@ body{
   margin: 0 auto;
 }
 
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
 .top {
   padding: 0;
   margin: 0;
@@ -100,14 +107,23 @@ footer {
 .background {
   width: 100%;
   padding-top: 1em;
+  margin: 0 auto;
+  max-width: 600px;
+  display: block;
 }
 
 .about {
   padding: 0 1em 1em 1em;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
 }
 
 .contact {
   padding: 0 1em 1em 1em;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
 }
 
 h2 {
@@ -116,19 +132,15 @@ h2 {
 }
 
 .projects {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+
 }
 
 .box {
   position: absolute;
-  width: 100%;
   background-color: #025157;
   opacity: 0;
-  height: 100%;
-  width: 3100%;
-  margin: 0;
+  height: 350px;
+  width: 350px;
   padding: 0;
 }
 
@@ -138,6 +150,7 @@ h2 {
 
 .piece {
   position: relative;
+  margin: 0 auto;
 }
 
 .foot {
@@ -148,16 +161,30 @@ h2 {
   bottom: 0;
   position: fixed;
   width: 100%;
+  clear: all;
+  background-color: white;
+  max-height: 56px;
 }
 
-@media only screen and (min-width: 145em) {
+.icons {
+  width: 380px;
+  margin: 0 auto;
+}
 
-  .elements {
-    width: 40%;
-  }
+@media only screen and (min-width: 25em) {
 
-  .tick-pop svg {
-    top: 500px;
-  }
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
 
 }
