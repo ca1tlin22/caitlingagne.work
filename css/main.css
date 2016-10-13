@@ -146,6 +146,18 @@ h2 {
   background-repeat: repeat;
   background-position: center;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
+}
+
+@media only screen and (min-width: 145em) {
+
+  .elements {
+    width: 40%;
+  }
+
+  .tick-pop svg {
+    top: 500px;
+  }
+
 }
