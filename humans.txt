@@ -1,0 +1,18 @@
+# humanstxt.org
+
+#TEAM
+
+Designer & Developer:Caitlin Gagne<caitlingagne@outlook.com>
+Site: http://caitlingagne.work
+Location: Ottawa, Canada
+
+---
+
+ #THANKS
+
+ # TECHNOLOGY
+
+ ##Software
+
+ - Atom
+ _ Git + Github
