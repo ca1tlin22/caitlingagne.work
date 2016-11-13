@@ -10,77 +10,59 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Slabo 27px', serif;
-  font-family: 'Montserrat', sans-serif;
 
   padding: 0;
   margin: 0;
+
+  font-family: 'EB Garamond', serif;
+  background: #414042;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body{
-  padding: 0;
-  margin: 0 auto;
-  min-height: 850px;
-}
-
-.top {
+body {
   padding: 0;
   margin: 0;
-  background-color: white;
+}
 
-  color: #CADFCD;
+p, h1 {
+  padding: 1.5rem;
+  color: white;
   text-align: center;
-}
-
-.background {
-  width: 100%;
-  padding-top: 1em;
-  margin: 0 auto;
-  max-width: 600px;
-  display: block;
-}
-
-.content {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0;
-}
-
-h1 {
-  font-family: 'Slabo 27px', serif;
-  color: #025157;
-  font-size: 3rem;
-
-  padding-top: 0.25em;
-  padding-bottom: 0em;
-  margin: 0;
-}
-
-h2 {
-  font-family: 'Slabo 27px', serif;
-  color: #F16565;
-}
-
-h4 {
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
 }
 
 a {
+  color: white;
   text-decoration: none;
-  color: #025157;
+}
+
+a:hover {
+  color: #A3CAAB;
+}
+
+.rule {
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 20.8px;
+  color: #A3CAAB;
+  border-top: 2px solid;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+}
+
+.logo img {
+  width: 100%;
 }
 
 .nav {
   list-style: none;
   margin: 0.5em 0 0em 0;
-  background-color: #025157;
   padding: 0.5em;
 }
 
@@ -106,33 +88,12 @@ nav ul {
   width: calc(100% / 3);
 }
 
-.about {
-  padding: 0 1em 1em 1em;
-  margin: 0 auto;
-  max-width: 600px;
-  text-align: center;
-}
-
-.contact {
-  padding: 0 1em 1em 1em;
-  margin: 0 auto;
-  max-width: 600px;
-  text-align: center;
-}
-
-.info {
-  padding: 0 1em 1em 1em;
-  margin: 0 auto;
-  max-width: 600px;
-  width: 100%;
-}
-
 .box {
   position: absolute;
   background-color: #025157;
   opacity: 0;
   height: 350px;
-  width: 350px;
+  width: 100%;
   padding: 0;
 }
 
@@ -142,11 +103,17 @@ nav ul {
 
 .piece {
   position: relative;
-  margin: 0 auto;
+  flex: 1 0 33.3333%;
 }
 
 .project {
   width: 100%;
+}
+
+footer {
+  background: #fff;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .social {
@@ -161,20 +128,19 @@ nav ul {
   margin: 0 auto;
 }
 
-footer {
-  margin: 0 auto;
-  text-align: center;
-}
-
 .foot {
-  background-image: url(../img/leaves.svg);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-position: center;
   bottom: 0;
   position: fixed;
   width: 100%;
   clear: all;
   background-color: white;
   max-height: 56px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .social {
+    width: 20%;
+  }
+
 }

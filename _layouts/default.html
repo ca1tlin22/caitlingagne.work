@@ -14,36 +14,31 @@
   <meta property="og:description" content="Caitlin Gagne's portfolio website." />
 
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 </head>
-
-<header>
 <body>
-  <div class="top">
-    <h1><a href="index.html">CAITLIN GAGNE</a></h1>
-    <h4>Graphic Design | Illustration</h4>
-  </div>
 
-  <nav>
-  <ul class="nav">
-    <li><a href="projects.html">Projects</a></li>
-    <li>|</li>
-    <li><a href="about.html">About</a></li>
-    <li>|</li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-</header>
+  <header>
+    <nav class="grid">
+    <ul class="nav unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-5">
+      <li><a href="index.html">Home</a></li>
+      <li>|</li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
+  </header>
 
-<main itemscope itemtype="https://schema.org/CreativeWork">
-{{content}}
-</main>
-
+  <main itemscope itemtype="https://schema.org/CreativeWork">
+  {{content}}
+  </main>
 </body>
-<footer>
+
+<footer class="foot">
   <div class="icons">
-    <a href="https://github.com/ca1tlin22"><img class="social github" src="img/github.svg" alt=""></a>
     <a href="https://www.instagram.com/caitlin.gagne/"><img class="social insta" src="img/insta.svg" alt=""></a>
+    <a href="https://github.com/ca1tlin22"><img class="social github" src="img/github.svg" alt=""></a>
     <a href="https://ca.linkedin.com/in/caitlin-gagné-8b7286106"><img class="social linkedin" src="img/linkedin.svg" alt=""></a>
   </div>
 </footer>
