@@ -89,11 +89,9 @@ nav ul {
 }
 
 .box {
+  z-index: 1;
   position: absolute;
-  background-color: #025157;
   opacity: 0;
-  height: 350px;
-  width: 100%;
   padding: 0;
 }
 
@@ -101,16 +99,16 @@ nav ul {
   opacity: 0.5;
 }
 
-.piece {
-  position: relative;
-  flex: 1 0 33.3333%;
-}
-
-.project {
+.art {
+  position: static;
+  clear: all;
   width: 100%;
+  padding: 0;
+  filter: grayscale(100%);
 }
 
 footer {
+  z-index: 1;
   background: #fff;
   margin: 0 auto;
   text-align: center;
