@@ -85,6 +85,10 @@ nav ul {
   color: white;
 }
 
+.nav a:hover {
+  color: #A3CAAB;
+}
+
 .nav li {
   color: white;
   display: inline;
