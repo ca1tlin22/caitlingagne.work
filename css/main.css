@@ -27,7 +27,7 @@ body {
   margin: 0;
 }
 
-p, h1 {
+p, h1, h2 {
   padding: 1.5rem;
   color: white;
   text-align: center;
@@ -67,7 +67,7 @@ a:hover {
 .nav {
   list-style: none;
   margin: 0.5em 0 0em 0;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 1em 0.5em;
 }
 
 nav ul {
@@ -118,7 +118,7 @@ nav ul {
 
 footer {
   z-index: 1;
-  background: #fff;
+  background: white;
   margin: 0 auto;
   text-align: center;
 }
@@ -154,10 +154,30 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    background: white;
+  }
+
+  header {
+    background: #414042;
+  }
+
   .logo-sm {
   width: 30px;
   align-content: flex-end;
   margin-left: 74%;
+  }
+
+  p, h2 {
+    color: #414042;
+  }
+
+  p {
+    padding-top: 0;
+  }
+
+  h2 {
+    margin: 0;
   }
 
 }
