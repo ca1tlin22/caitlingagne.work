@@ -1,0 +1,30 @@
+html {
+  padding: 1em;
+  margin: 1em;
+}
+
+.fourohfour h1 {
+  color: #414042;
+  font-size: 4rem;
+}
+
+.fourohfour h2 {
+  padding: 0em;
+}
+
+.fourohfour .logo {
+  width: 40%;
+}
+
+.fourohfour {
+  text-align: center;
+  color: #414042;
+}
+
+.fourohfour a {
+  color: #A3CAAB;
+}
+
+.fourohfour a:hover {
+  color: #414042;
+}
