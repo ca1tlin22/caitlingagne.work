@@ -172,7 +172,7 @@ footer {
   margin-left: 74%;
   }
 
-  p, h2 {
+  p, h2, a {
     color: #414042;
   }
 
@@ -182,10 +182,6 @@ footer {
 
   h2 {
     margin: 0;
-  }
-
-  a {
-    color: #414042;
   }
 
 }
